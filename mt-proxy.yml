@@ -1,9 +1,0 @@
-server:
-  port: 8080
-cloud:
-  gateway:
-    routes:
-    - id: baeldung_route
-      uri: http://baeldung.com
-      predicates:
-      - Path=/baeldung/
